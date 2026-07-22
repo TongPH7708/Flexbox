@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Shop</title>
+</head>
+<style>
+    body{
+        background-color: #f0f0f0;
+    }
+
+    .website{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .header{
+        width: 100%;
+       text-align: center;
+    }
+
+    .header h1{
+        margin-bottom: 5px;
+    }
+
+    .header p{
+        color: gray;
+        margin-top: 5px;
+    }
+
+    .sidebar{
+        background-color: white;
+        width: 250px;
+        height: 100%;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+
+    .belowheader{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+    }
+
+   .content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 1000px;
+   }
+
+    .products{
+        background-color: white;
+        width: 300px;
+        border-radius: 20px;
+        height: fit-content;
+    }
+    
+    .productstext{
+        padding: 10px;
+    }
+
+    img{
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .price{
+        color: red;
+        font-weight: bold;
+    }
+
+    .description{
+        color: lightgrey;
+    }
+
+    .addtocart{
+        width: fit-content;
+        background-color: lightskyblue;
+        border-radius: 10px;
+        border: 2px solid lightskyblue;
+        text-align: center;
+        color: white;
+        width: 100%;
+        padding: 10px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+<div class="website">
+    <div class="header">
+        <h1>Our Products</h1>
+        <p>Explore our wide range of high quality products designed to make your life better</p>
+    </div>
+        <div class="belowheader">
+            <div class="sidebar">
+                <h2>Filter Products</h2>
+
+                <h3>All Categories</h3>
+                <p><input type="checkbox"> All Products</p>
+                <p><input type="checkbox">  Electronics</p>
+                <p><input type="checkbox"> Clothing</p>
+                <p><input type="checkbox"> Home & Kitchen</p>
+                <p><input type="checkbox"> Sports & Outdoors</p
+
+            <h3>Price Range</h3>
+                <p><input type="checkbox"> Under $25</p>
+                <p><input type="checkbox"> $25-$50</p>
+                <p><input type="checkbox"> $50-$100</p>
+                <p><input type="checkbox"> $100-$200</p>
+                <p><input type="checkbox"> $200 or above</p>
+
+            </div>
+            <div class="content">
+                <div class="products">
+                    <div> <img src="https://placehold.co/300x200"></div>
+
+                    <div class="productstext"><h2>Wireless headphones</h2>
+                    <p class="price">$129.99</p>
+                    <p class="description">Premium wireless headphones with noise cancellation and 30-hour battery life</p>
+                    <button class="addtocart">Add to Cart</button> </div>
+                    
+                </div>
+                
+                <div class="products">
+                    <div> <img src="https://placehold.co/300x200"></div>
+
+                    <div class="productstext"><h2>Wireless headphones</h2>
+                    <p class="price">$129.99</p>
+                    <p class="description">Premium wireless headphones with noise cancellation and 30-hour battery life</p>
+                    <button class="addtocart">Add to Cart</button> </div>
+                    
+                </div>
+                <div class="products">
+                    <div> <img src="https://placehold.co/300x200"></div>
+
+                    <div class="productstext"><h2>Wireless headphones</h2>
+                    <p class="price">$129.99</p>
+                    <p class="description">Premium wireless headphones with noise cancellation and 30-hour battery life</p>
+                    <button class="addtocart">Add to Cart</button> </div>
+                    
+                </div>
+                <div class="products">
+                    <div> <img src="https://placehold.co/300x200"></div>
+
+                    <div class="productstext"><h2>Wireless headphones</h2>
+                    <p class="price">$129.99</p>
+                    <p class="description">Premium wireless headphones with noise cancellation and 30-hour battery life</p>
+                    <button class="addtocart">Add to Cart</button> </div>
+                    
+                </div>
+                <div class="products">
+                    <div> <img src="https://placehold.co/300x200"></div>
+
+                    <div class="productstext"><h2>Wireless headphones</h2>
+                    <p class="price">$129.99</p>
+                    <p class="description">Premium wireless headphones with noise cancellation and 30-hour battery life</p>
+                    <button class="addtocart">Add to Cart</button> </div>
+                    
+                </div>
+                <div class="products">
+                    <div> <img src="https://placehold.co/300x200"></div>
+
+                    <div class="productstext"><h2>Wireless headphones</h2>
+                    <p class="price">$129.99</p>
+                    <p class="description">Premium wireless headphones with noise cancellation and 30-hour battery life</p>
+                    <button class="addtocart">Add to Cart</button> </div>
+                    
+                </div>
+                
+            </div>
+                
+            </div>
+
+        </div>
+    
+</div>
+</body>
+</html>
